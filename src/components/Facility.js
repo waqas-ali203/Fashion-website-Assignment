@@ -22,13 +22,12 @@ const Facility = ({
       </svg>),
 }) => {
   return (
-    <div className="flex flex-row p-5 gap-10">
-      <span className="mt-2">{Icon}</span>
-      {/* <img src={Icon} className="w- h-10"/> */}
-      <div className="flex flex-col mt-2">
-        <h1 className="text-2xl font-bold text-black">{title}</h1>
-        <p>{Description}</p>
-      </div>
+    <div className="flex flex-row items-start p-3 gap-5 w-[22%] min-w-[250px]">
+    <span className="mt-2">{Icon}</span>
+    <div className="flex flex-col mt-2 max-w-xs">
+      <h3 className="font-semibold text-black">{title}</h3>
+      <p className="text-wrap mt-5 line-clamp-2">{Description}</p>
+    </div>
     </div>
   );
 };

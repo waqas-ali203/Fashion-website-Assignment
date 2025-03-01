@@ -13,19 +13,19 @@ const Navbar = () => {
             <div>
               <div class="flex cursor-pointer items-center gap-x-2 rounded-md  py-2 px-4 text-black">
                 <a
-                  href="#"
+                  href="/"
                   class="flex-no-grow flex-no-shrink relative rounded-lg py-2 px-4 leading-normal no-underline flex items-center hover:bg-gray-300"
                 >
                   Home
                 </a>
                 <a
-                  href="#"
+                  href="/about"
                   class="flex-no-grow flex-no-shrink relative py-2 rounded-lg px-4 leading-normal no-underline flex items-center hover:bg-gray-300"
                 >
                   About
                 </a>
                 <a
-                  href="#"
+                  href="/contact"
                   class="flex-no-grow flex-no-shrink relative rounded-lg py-2 px-4 leading-normal no-underline flex items-center font-bold hover:bg-gray-300"
                 >
                   Contact us
