@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <div>
       <div class="bg-white">
-        <div class="py-3 px-6">
+        <div class="pt-2 px-6">
           <div class="flex justify-between">
             <div>
-              <span class="font-semibold text-black">NorthStar</span>
+              <p class="font-semibold text-black">NorthStar</p>
             </div>
 
             <div>

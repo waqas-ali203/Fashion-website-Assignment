@@ -1,15 +1,14 @@
-import React from 'react'
+import React from 'react';
 import Button from "@/components/Button";
 
-
-const BlackCard = ({title="Card Heading", description="Card detail" }) => {
+const BlackCard = ({ title = "Card Heading", description = "Card detail" }) => {
   return (
-    <div className='flex flex-col justify-center items-center my-auto p-16 bg-black text-white'>
-      <h1>{title}</h1>
-      <p>{description}</p>
-      <Button title="BUY NOW" className="bg-white text-white w-fit"/>
+    <div className="flex flex-col justify-center items-center text-center p-12 bg-black text-white w-[350px] h-[250px]">
+      <h1 className="text-lg font-bold">{title}</h1>
+      <p className="text-sm my-4">{description}</p>
+      <Button title="BUY NOW" />
     </div>
-  )
-}
+  );
+};
 
-export default BlackCard
+export default BlackCard;
